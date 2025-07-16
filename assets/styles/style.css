@@ -96,6 +96,39 @@ body {
   margin-bottom: 5px;
 }
 
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: #FCCF03;
+  border-top: 1px solid black;
+}
+.footer__paragraph {
+  display: inline-block;
+  background-color: white;
+  line-height: 10vh;
+  border-right: 1px solid black;
+  padding: 3px;
+}
+.footer__list, .footer__list__item {
+  display: inline-block;
+}
+.footer__list {
+  font-weight: bold;
+}
+.footer__list__item a {
+  text-decoration: none;
+  color: black;
+}
+.footer__list__item a:hover {
+  font-weight: 900;
+}
+
+
+/* Media Query Stuff */
 @media (max-width: 564px) {
   .main {
     width: 60%;
