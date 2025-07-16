@@ -111,7 +111,6 @@ body {
   background-color: white;
   line-height: 10vh;
   border-right: 1px solid black;
-  padding: 3px;
 }
 .footer__list, .footer__list__item {
   display: inline-block;
