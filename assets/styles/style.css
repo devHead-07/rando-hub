@@ -79,7 +79,7 @@ figcaption {
 }
 
 .main__paragraph {
-  margin: 15px;
+  margin: 3px 15px;
 }
 
 .footer {
@@ -95,7 +95,7 @@ figcaption {
   display: flex;
   align-items: center;
   background-color: white;
-  height: 8vh;
+  height: 7.9vh;
   border-right: 1px solid black;
   font-weight: 500;
 }
@@ -120,5 +120,8 @@ figcaption {
   .main {
     flex-direction: column;
     min-width: 100%;
+  }
+  .main__paragraph {
+    margin: 15px 3px;
   }
 }
